@@ -1,0 +1,11 @@
+body {
+  background-image: url(../img/italiana.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100px;
+  width: 100%;
+}
+
+.container{
+	background-color:#D7DF01;
+}

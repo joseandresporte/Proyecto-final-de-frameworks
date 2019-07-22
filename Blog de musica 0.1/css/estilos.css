@@ -1,0 +1,70 @@
+body{
+	background: #fff;
+}
+
+header{
+	padding: 30px;
+	background: #2c3e50;
+	color: #fff;
+	
+}
+
+
+
+.main{
+	/*margin: 3px;*/
+	background: #f2f2f2;
+}
+
+.contenedor-hijo{
+	background: #2c3e50;
+}
+
+.color1{
+	background: #34495e;
+	color: #fff;
+}
+
+h1 {
+	color: green;
+}
+
+aside {
+	background: #cecece;
+	/*color: #fff;*/
+}
+
+footer {
+	background: #16a085;
+	color: #fff;
+}
+
+nav{
+	padding: 10px;
+	display: flex;
+	border-radius: 2px;
+	background: #848484;
+	color: #190B07;
+}
+
+/*Barra lateral*/
+
+/* Habilitando la posicion absoluta del icono en input */
+.inner-addon {
+    position: relative;
+}
+
+/* Estilos de icono en input */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* Alineando icono */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* Añadiendo padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
